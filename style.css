@@ -1,0 +1,96 @@
+@import url('https://fonts.googleapis.com/css2?family=Passion+One&display=swap');
+
+@import url('https://fonts.googleapis.com/css2?family=Kalam&display=swap');
+
+*{
+    margin: 0%;
+    padding: 0%;
+}
+:root{
+    --font00: Verdana, Geneva, Tahoma, sans-serif;
+    --fonte01: 'Passion One', sans-serif;
+    --font02: 'Kalam', cursive;
+}
+
+body, html{
+    min-height: 100vh;
+    background-color: rgb(78, 76, 76);
+    font-family: var(--font00);
+
+}
+header{
+    background-color: black;
+    color: white;
+    text-align: center;
+    box-shadow: 8px 8px 10px rgba(0, 0, 0, 0.404);
+}
+header > h1{
+    padding: 50px;
+    color: white;
+    font-variant: small-caps;
+    font-family: var(--fonte01);
+    font-size: 10vw;
+
+}
+header > p{
+    padding-bottom:2em;
+
+    
+
+}
+a{
+  color: white;
+  text-decoration: none;
+  font-weight: bolder;
+  
+}
+a :hover{
+    text-decoration:underline;
+}
+section{
+    padding-top: 10vh;
+    padding-bottom: 10vh;
+    line-height: 2em;
+    padding-left: 30px;
+    font-family: var(--font02);
+    font-size: 3vw;
+    
+    
+}
+section.normal{
+background-color: aliceblue;
+font-family:var(--font02);
+
+
+}
+section.imagem{
+    background-color: bisque;
+    box-shadow: inset 6px 6px 13px 0px rgba(0, 0, 0, 0.438);
+    background-size: cover;
+    background-attachment: fixed;
+}
+section.imagem > p{
+   background-color: rgba(0, 0, 0, 0.274);
+   color: aliceblue;
+   display:inline-block ;
+   padding: 1.5%;
+   text-shadow: 1px 1px 0px black;
+   
+}
+section#img01{
+    background-image: url(pexels-hermaion-458988.jpg);
+    
+
+}
+section#img02{
+    background-image: url(ladybug-3475779_1280.jpg);
+    background-position: right center;
+    
+
+}
+footer{
+    background-color: black;
+    color: white;
+    text-align: center;
+    padding: 1%;
+}
